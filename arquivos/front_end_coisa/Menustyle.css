@@ -1,0 +1,47 @@
+#Img1{
+  width: 80;
+  height: 80;
+  border-style: solid;
+  border-color: rgba(179, 147, 85, 0.73);
+  position: relative;
+}
+
+#Img2{
+  width: 80;
+  height: 80;
+  border-style: solid;
+  border-color: rgba(179, 147, 85, 0.73);
+  position: relative;
+}
+
+#Title1{
+
+text-align: center;
+color:rgba(179, 147, 85, 0.73);
+
+border: 2px ;
+border-style: dashed;
+border-color: rgb(13, 141, 205);
+
+}
+#Text1{
+  color: rgba(179, 147, 85, 0.73);
+  border: 1px;
+  border-style: outset;
+  border-color: rgb(13, 141, 205);
+
+}
+#Text2{
+  color: green;
+  margin: 540 auto;
+  width: 300px;
+  right: 0;
+  position: absolute;
+}
+.Links{
+  margin: 0 auto;
+  width: 200px;
+}
+body{
+  background-color: black;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="BoxModelCss.css">
+    <title>Box Model</title>
+  </head>
+  <body>
+    <div class="cor">
+      <h1 >Box Model</h1>
+      <p>Enquanto falamos de largura, também devemos falar sobre o maior problema da propriedade width: o box model. Quando você define a largura de um elemento,
+         este elemento pode parecer maior do que o definido: as bordas - border - e o preenchimento - padding - vão esticar o elemento além da largura definida.
+         Veja o exemplo a seguir que demonstra dois elementos com os mesmos valores para a largura width, porém com tamanhos diferentes.
+       </p>
+       <p>Por gerações, a solução para esse problema tem sido a matemática. Os autores de CSS sempre escreviam simplesmente um valor de largura menor do que
+          queria, subtraindo o valor do padding e border. Felizmente, você não precisa mais fazer isso...</p>
+
+          <p>Com o tempo, as pessoas perceberam que aquela matemática não era interessante. Logo, criaram uma propriedade do CSS chamada box-sizing.Quando você
+            define box-sizing: border-box; em um elemento, os valores do padding e do border não são adicionados em sua largura. Aqui está o mesmo exemplo da
+            página anterior, porém com a propriedade box-sizing: border-box;</p>
+
+<a href="http://pt-br.learnlayout.com/box-sizing.html" target="_blanks">Para mais conteudo Acesse.</a>
+    </div>
+
+  </body>
+</html>

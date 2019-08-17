@@ -1,0 +1,53 @@
+body{
+  background-color: black;
+
+}
+#testo{
+  color: rgba(179, 147, 85, 0.73);
+}
+#menu{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.menu ul li{
+  padding: 20px;
+  flex-grow: 1;
+  transition: background-color .2s linear;
+  border: solid 1px tranparent;
+  }
+
+.menu ul li a{
+  text-decoration: none;
+  color: rgba(179, 147, 85, 0.73);
+}
+
+#item1{
+  background-color: white;
+}
+#item2{
+  background-color:  white;
+
+}
+#item3{
+  background-color: white;
+}
+#item4{
+  background-color: white;
+}
+#item5{
+  background-color: white;
+}
+
+
+.menu ul li:hover{
+  border: solid 1px white;
+  background-color: white !important;
+  cursor: pointer;
+}

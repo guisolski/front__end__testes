@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+
+.cor{
+  color: white;
+}
+#Title1{
+text-align: center;}
+#Borda1{
+  border: 20px transparent;
+  border-style: solid;
+  padding: 15px;
+  border-image: url(Zelda3.jpg);
+}
+
+#Borda2{
+  border: 5px;
+  border-style: solid;
+  border-radius: 25px;
+}
+#Shadow{
+  box-shadow: 3px 3px 3px white;
+}
+#Img1{
+  position: absolute relative;
+
+}
+#Img2{
+  position: fixed relative;
+}

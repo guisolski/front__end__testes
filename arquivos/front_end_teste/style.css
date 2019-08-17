@@ -1,0 +1,106 @@
+.menu ul{
+  list-style: none;
+  display: flex;
+  text-align: right;
+ /* float: right	*/
+
+}
+.menu ul li{
+  padding: 10px;
+  flex-grow: 1;
+  transition: background-color .2s linear;
+  border: solid 1px tranparent;
+  
+}
+ 
+.menu{
+	background-color: #ededed;
+	margin: auto;
+    width: 50%;
+    padding: 1px;
+}
+.Intrucao{
+	margin: auto;
+    width: 50%;
+    padding: 1px;
+	text-align: center;
+	color: white;
+}
+.box_1{
+    display: inline-block;
+	background-color: #f3f3f3;
+	margin: auto;
+    width: 25%;
+   	margin-left: 23%; 
+	position: absolute;
+	top: 190%;
+
+}
+.box_2{
+	display: inline-block;
+	background-color: #f3f3f3;
+	margin: auto;
+    width: 25%;
+	margin-left: 50%; 
+	position: absolute;
+	top: 190%;
+	
+}
+.container{
+	margin: auto;
+    width: 50%;
+    padding: 1px;
+	text-align: center;
+	color: blue;
+	position: absolute;
+	margin-left: 25%; 
+	top: 350%;
+	
+	
+}
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     display: block;
+     max-width: width;
+     height: 200px !important;
+ }
+#FORNECEDORES {
+	margin: auto;
+    width: 50%;
+    padding: 1px;
+	text-align: center;
+	color: blue;
+	position: absolute;
+	margin-left: 25%; 
+	top: 300%;
+	
+}
+#map {
+	margin: auto;
+    width: 50%;
+    padding: 1px;
+	text-align: center;
+	color: blue;
+	position: absolute;
+	margin-left: 25%; 
+	top: 450%;
+	
+}
+/*
+#img_box_1 {
+	left: 10px; 
+	top: 70px; 
+	position: relative; 
+}
+*/
+
+body{
+  background-image: url("Images/home-banner.jpg");
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
